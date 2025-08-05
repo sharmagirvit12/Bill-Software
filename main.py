@@ -431,7 +431,6 @@ class Bill_App:
 
 
    def generate_bill(self):
-        self.update_bill_area()
         tk.messagebox.showinfo("Success", "Bill Generated Successfully")
 
    def save_bill(self):
