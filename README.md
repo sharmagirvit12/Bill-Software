@@ -1,23 +1,46 @@
-SHARMA-BILLING: Your Ultimate Billing Sidekick
-Ever wish billing was as easy as a few clicks? Say goodbye to manual ledgers and complex spreadsheets! SHARMA-BILLING is a sleek, intuitive GUI-based billing software designed to streamline your checkout process. Built with Python's trusty Tkinter library, this application isn't just a tool; it's your new best friend for managing sales, customer data, and effortless bill generation.
+# GIRVIT SHARMA BILLING SOFTWARE
 
-What Makes It Special?
-A Bill, Not a Novel: Generate clean, professional bills in an instant. No more messy handwriting or confusing calculations.
+A comprehensive GUI-based billing application developed with Python, designed to streamline the sales and invoicing process for small businesses.
 
-Smart Product Search: Our cascading dropdown menus make finding items a breeze. Just select a category, then a sub-category, and watch the products—and their prices—appear like magic.
+## 📝 Description
 
-Customer-Centric: Keep a digital record of customer names, mobile numbers, and emails right on the bill. It's a small touch that makes a big impression.
+This project provides a modern, user-friendly interface to automate billing. It allows users to manage customer and product data, generate real-time totals, and create and save professional invoices. The software is a practical solution to the common problem of slow and error-prone manual billing systems.
 
-One-Click Actions: With dedicated buttons to add to cart, generate, save, and even print your bills, we've minimized the clicks so you can maximize your time.
+## ✨ Features
 
-Your Personal Accountant: The software automatically calculates the sub-total, adds a nominal tax, and gives you the final total, so you can focus on the customer, not the calculator.
-Workflow and Project Structure
-Understanding the workflow is simple, and it's built to be as intuitive as possible. Here’s a quick overview of how the application is structured and how you'll interact with it.
+- **Dynamic Product Selection:** Products are organized by categories and sub-categories, with prices automatically updated upon selection.
+- **Real-time Bill Calculation:** The `Bill Counter` section instantly calculates the Sub-Total, Government GST, and Total Bill.
+- **Automated Invoice Generation:** Add items to the cart, and the system automatically formats a clean, detailed bill in the `Bill Area`.
+- **Full System Control:** A suite of buttons to `Add to Cart`, `Generate Bill`, `Save Bill`, `Print Bill`, and `Clear Bill`.
+- **Customer Data Management:** Dedicated fields for entering and displaying customer information.
 
-Customer Details: On the left side, you enter customer information. This data is then used to populate the bill.
+## 🚀 How to Run the Project
 
-Product Selection: In the middle, you select products. The dropdowns are dynamic—picking a category automatically updates the sub-category list, and so on.
+### Prerequisites
 
-Bill Area: On the right, the bill is generated in real-time as you add items.
+To run this application, you need to have the following installed:
 
-Bill Actions: At the bottom, you find the action buttons to finalize, save, or clear your bill.
+- **Python 3.x**
+- **Tkinter** (This is a standard library included with most Python installations)
+- **Pillow (`PIL`)**: A library for image handling. You can install it using pip:
+  ```bash
+  pip install Pillow
+  ```
+
+# Technologies Used
+
+Python: The core programming language.
+
+Tkinter: The standard library used for building the Graphical User Interface (GUI).
+
+Pillow (PIL): Used for resizing and handling images within the GUI.
+
+Visual Studio Code: The development environment used.
+
+# Author
+
+Girvit Sharma - Final-year student at TITS College Bhiwani Haryana
+
+LinkedIn: https://www.linkedin.com/in/girvit-sharma-504613271/
+
+GitHub: https://github.com/sharmagirvit12

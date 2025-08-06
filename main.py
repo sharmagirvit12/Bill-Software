@@ -86,7 +86,7 @@ class Bill_App:
       # Label Title
       lbl_title = tk.Label(
           self.root,
-          text="SHARMA-BILLING",
+          text="GIRVIT-SHARMA-BILLING",
           font=("times new roman", 35, "bold"),
           bg="#656B83",
           fg="white",
@@ -252,7 +252,7 @@ class Bill_App:
 
 
      # BILL AREA-Header
-      self.textarea.insert(tk.END,f"\n{'SHARMA-BILLING':^30}\n")
+      self.textarea.insert(tk.END,f"\n{'GIRVIT-SHARMA-BILLING':^30}\n")
       self.textarea.insert(tk.END,f"\nBill No.:{self.bill_number}")
       self.textarea.insert(tk.END,f"\nCustomer Name:{self.customer_name.get()}")
       self.textarea.insert(tk.END,f"\n Mobile No.:{self.customer_mob.get()}")
